@@ -1,0 +1,103 @@
+.navbar {
+    padding: 0;
+    margin: 0;
+
+
+    .wrapper {
+        height: 65px;
+        background-color: white;
+        display: flex;
+        // width: 100%;
+        padding: 10px;
+
+        .left {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 0;
+
+            .logo {
+                font-size: 40px;
+            }
+
+            .logoTitle {
+                font-size: 40px;
+                font-weight: 200;
+            }
+        }
+
+        .center {
+            flex: 2;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+
+            .filter {
+                display: flex;
+
+                span {
+                    font-size: 20px;
+                }
+
+                .banglorelogo {
+                    cursor: pointer;
+                }
+            }
+
+            .tag {
+                display: flex;
+                align-items: center;
+
+                gap: 15px;
+
+                .tags {
+                    // border-radius: ;
+                    border: 1px solid black;
+                    height: 25px;
+                    width: max-content;
+                    border-radius: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 10px;
+
+                    cursor: pointer;
+
+                    .logo {
+                        margin-right: 5px;
+                    }
+
+
+                    .text {
+                        font-size: 22px;
+                        font-weight: 100;
+                    }
+                }
+            }
+
+            // width: 100%;
+        }
+
+        .right {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+
+            .button {
+                padding: 10px;
+                font-size: 20px;
+                color: blue;
+                border: 1px solid blue;
+                font-weight: 500;
+                border-radius: 20px;
+                cursor: pointer;
+
+            }
+        }
+
+    }
+}
